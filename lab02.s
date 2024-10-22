@@ -21,9 +21,6 @@ loop:
     bne  s0, a0, loop
 ret0:
     add  s0, zero, zero  # return address - not found
-done:
-    addi a7, zero, 10 
-    ecall
 #-----------------------------
 # Write your code here!
 # Do not remove the prog label or write code above it!
